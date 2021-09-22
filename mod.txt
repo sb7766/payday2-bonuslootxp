@@ -10,5 +10,14 @@
 			"hook_id": "lib/managers/lootmanager",
 			"script_path": "blxp.lua"
 		}
-	]
+	],
+	"updates" :
+    [
+        {
+            "identifier" : "blxp",
+            "host": {
+                "meta": "",
+            }
+        }
+    ]
 }s
