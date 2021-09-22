@@ -17,7 +17,7 @@ nightclub = {money = 500, coke = 1000},
 fish = {mus_artifact = 1000},
 ukrainian_job = {diamonds = 500},
 alex_must_die_2 = {money = 1000},
-dinner = {din_pig = 1500},
+dinner = {din_pig = 1000},
 arm_cro = {gold = 500, money = 500, jewelry = 500},
 arm_hcm = {gold = 500, money = 500, jewelry = 500},
 arm_fac = {gold = 500, money = 500, jewelry = 500},
@@ -31,8 +31,6 @@ fex = {coke = 500, weapon = 100}
 }
 
 Hooks:PostHook(LootManager, "sync_secure_loot", "sync", function(self, carry_id)
-	log(tostring(managers.job:current_level_id()))
-	log(tostring(carry_id))
 	if has_value(levels, managers.job:current_level_id()) then
 		managers.experience:mission_xp_award(loot[Global.level_data.level_id][carry_id] or 0)
 	end
