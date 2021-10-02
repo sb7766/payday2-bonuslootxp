@@ -37,6 +37,7 @@ Hooks:PostHook(LootManager, "sync_secure_loot", "sync", function(self, carry_id)
 	elseif has_value(escapes, managers.job:current_level_id()) then
 		managers.experience:mission_xp_award(500)
 	end
+end)
 
 function has_value (tab, val)
     for index, value in ipairs(tab) do
