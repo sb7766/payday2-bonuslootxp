@@ -3,7 +3,7 @@
 	"description": "Adds XP rewards to extra loot in a number of heists that didn't have such XP. This will make heists such as bank heists, GCC, and Shacklethorne far more worthwhile.",
 	"author": "Magmatic",
 	"contact": "https://github.com/sb7766/payday2-bonuslootxp/",
-	"version": "1",
+	"version": "1.2",
 	"priority": 0,
 	"hooks": [
 		{
