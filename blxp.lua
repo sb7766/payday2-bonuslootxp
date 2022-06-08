@@ -1,32 +1,22 @@
-levels = {"kenaz", "welcome_to_the_jungle_1_night", "welcome_to_the_jungle_1", "branchbank", "mex", "sah", "dah", 
-"firestarter_1", "firestarter_2", "firestarter_3", "four_stores", "nightclub", "fish", "ukrainian_job", "alex_must_die_2",
-"dinner", "arm_cro", "arm_hcm", "arm_fac", "arm_par", "arm_und", "election_day_2", "election_day_3", "bex", "pex", "fex"}
+levels = {"kenaz", "welcome_to_the_jungle_1_night", "welcome_to_the_jungle_1", "branchbank", "mex", "dah", 
+"firestarter_1", "firestarter_3", "four_stores", "ukrainian_job", "alex_must_die_2",
+"dinner", "election_day_2", "election_day_3", "pex", "fex"}
 escapes = {"escape_cafe_day", "escape_park_day", "escape_cafe", "escape_park", "escape_street", "escape_overpass", "escape_overpass_night", "escape_garage"}
 loot = {
 kenaz = {money = 500, painting = 1000, unknown = 250}, 
 welcome_to_the_jungle_1_night = {money = 1000, coke = 1000, weapon = 1000},
 welcome_to_the_jungle_1 = {money = 1000, coke = 1000, weapon = 1000},
 branchbank = {money = 1000, gold = 1000},
-mex = {money = 500, coke = 500, weapon = 500, meth = 1000, roman_armor = 1500},
-sah = {mus_artifact = 500},
+mex = {meth = 500, roman_armor = 1000},
 dah = {diamonds_dah = 600, diamondheist_big_diamond = 250},
 firestarter_1 = {money = 1000},
-firestarter_2 = {coke = 500, gold = 500, weapon = 500, money = 500, goat = 1000},
 firestarter_3 = {gold = 1000, money = 1000},
 four_stores = {jewelry = 1000},
-nightclub = {money = 500, coke = 1000},
-fish = {mus_artifact = 1000},
 ukrainian_job = {diamonds = 500},
 alex_2 = {money = 1000},
 dinner = {din_pig = 1000},
-arm_cro = {gold = 500, money = 500, jewelry = 500},
-arm_hcm = {gold = 500, money = 500, jewelry = 500},
-arm_fac = {gold = 500, money = 500, jewelry = 500},
-arm_par = {gold = 500, money = 500, jewelry = 500},
-arm_und = {gold = 500, money = 500, jewelry = 500},
 election_day_2 = {money = 1000, gold = 500},
 election_day_3 = {money = 500},
-bex = {faberge_egg = 1000, treasure = 500},
 pex = {coke_pure = 1000, weapon = 1000},
 fex = {coke = 500, weapon = 100}
 }
